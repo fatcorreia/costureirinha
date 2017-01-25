@@ -1,0 +1,28 @@
+﻿<div *ngIf="servico">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a [routerLink]="['/lavandaria']">Lavandaria</a></li>
+                    <li class="active">{{ servico.nome }}</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Lavandaria</h3>
+                    </div>
+                    <div class="panel-body">
+                        <label>Tipo:</label>
+                        <p>{{ servico.nome }}</p>
+                        <label>Preço:</label>
+                        <p>{{ servico.preco | number }}€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /container -->
+</div>

@@ -1,0 +1,28 @@
+﻿<div *ngIf="arranjo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a [routerLink]="['/arranjo']">Arranjos</a></li>
+                    <li class="active">{{ arranjo.nome }}</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Arranjo</h3>
+                    </div>
+                    <div class="panel-body">
+                        <label>Tipo:</label>
+                        <p>{{ arranjo.nome }}</p>
+                        <label>Preço:</label>
+                        <p>{{ arranjo.preco | number }}€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /container -->
+</div>

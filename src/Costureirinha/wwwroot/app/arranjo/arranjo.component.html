@@ -1,0 +1,13 @@
+﻿<div class="container">
+    <div class="form-group">
+        <input type="text" [(ngModel)]="nome" class="form-control" placeholder="Pesquisar arranjo" />
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="list-group">
+                <a *ngFor="let arranjo of (arranjos | nomeFilter: nome)" [routerLink]="['/arranjo', arranjo.id]" class="list-group-item">{{ arranjo.nome }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /container -->

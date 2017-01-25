@@ -1,0 +1,32 @@
+﻿body {
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
+    "Fira Sans", "Droid Sans", "Helvetica Neue", 
+    sans-serif;
+}
+
+.navbar-inverse {
+    background-color: green;
+}
+
+.navbar-inverse .navbar-nav > li > a, .page-header h1, .navbar-inverse .navbar-brand {
+    font-weight: 700;
+    color: darkorange;
+}
+
+.vcenter {
+    position: absolute;
+    top: 50%;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.img-responsive {
+    width: 100%;
+}

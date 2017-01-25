@@ -1,0 +1,41 @@
+﻿<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" [routerLink]="['/']">A Costureirinha</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a [routerLink]="['/arranjo']">Arranjos</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a [routerLink]="['/engomadoria']">Engomadoria</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a [routerLink]="['/lavandaria']">Lavandaria</a></li>
+                    </ul>
+                </li>
+                <li><a [routerLink]="['/opiniao']" class="btn">Opiniões</a></li>
+                <li><a [routerLink]="['/contactos']" class="btn">Contactos</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div id="main-container" class="container">
+    <router-outlet></router-outlet>
+
+    <hr>
+    <footer>
+        <p>&copy; {{ year }} A Costureirinha <a class="fa fa-facebook-official fa-2x pull-right" href="http://facebook.com/costureirinhaporto/"></a></p>
+    </footer>
+</div>
+<!-- /.container -->

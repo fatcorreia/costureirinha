@@ -1,0 +1,17 @@
+﻿[
+  {
+    "id": 1,
+    "nome": "Ajustar cintura",
+    "preco": 5.00
+  },
+  {
+    "id": 2,
+    "nome": "Bainha",
+    "preco": 3.50
+  },
+  {
+    "id": 3,
+    "nome": "Subir altura",
+    "preco": 10.00
+  }
+]

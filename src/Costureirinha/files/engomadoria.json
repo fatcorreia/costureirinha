@@ -1,0 +1,17 @@
+﻿[
+  {
+    "id": 1,
+    "nome": "100 peças",
+    "preco": 20.25
+  },
+  {
+    "id": 2,
+    "nome": "20 camisas",
+    "preco": 15.50
+  },
+  {
+    "id": 3,
+    "nome": "10 Lençóis",
+    "preco": 17.00
+  }
+]

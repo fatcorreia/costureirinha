@@ -1,0 +1,17 @@
+﻿[
+  {
+    "id": 1,
+    "nome": "Lavagem a seco / peça",
+    "preco": 2.50
+  },
+  {
+    "id": 2,
+    "nome": "Colcha",
+    "preco": 10.00
+  },
+  {
+    "id": 3,
+    "nome": "Lençol",
+    "preco": 13.25
+  }
+]

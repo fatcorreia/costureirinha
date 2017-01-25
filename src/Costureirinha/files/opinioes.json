@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "autor": "123",
+    "estrelas": 5,
+    "texto": "123"
+  },
+  {
+    "id": 2,
+    "autor": "qwe",
+    "estrelas": 5,
+    "texto": "qwe"
+  },
+  {
+    "id": 3,
+    "autor": "asd",
+    "estrelas": 1,
+    "texto": "123"
+  },
+  {
+    "id": 4,
+    "autor": "qwe",
+    "estrelas": 5,
+    "texto": "123"
+  },
+  {
+    "id": 5,
+    "autor": "qwe",
+    "estrelas": 3,
+    "texto": "1234"
+  },
+  {
+    "id": 6,
+    "autor": "111",
+    "estrelas": 1,
+    "texto": "111"
+  }
+]
